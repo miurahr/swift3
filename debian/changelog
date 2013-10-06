@@ -1,0 +1,11 @@
+swift-plugin-s3 (1.7-1) unstable; urgency=low
+
+  * Recent upstream release.
+
+ -- Hiroshi Miura <miurahr@linux.com>  Sun, 06 Oct 2013 23:23:12 +0900
+
+swift-plugin-s3 (1.0.0~git201200618-0ubuntu1) quantal; urgency=low
+
+  * Initial release.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 18 Jun 2012 10:30:29 -0400

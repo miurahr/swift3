@@ -1,0 +1,15 @@
+Source: swift-plugin-s3
+Section: python
+Priority: extra
+Maintainer: Chuck Short <zulcss@ubuntu.com>
+Build-Depends: debhelper (>= 8.0.0), python-setuptools, python-all (>= 2.6.6-3~),
+ python-webob, python-simplejson
+Standards-Version: 3.9.3
+
+Package: swift-plugin-s3
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-webob, python-simplejson,
+ python-swift
+Description: swift3 middleware for swift.
+ Swift3 Middleware for OpenStack Swift, allowing access to OpenStack
+ swift via the Amazon S3 API.
